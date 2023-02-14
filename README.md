@@ -29,6 +29,7 @@ The inspiration behind creating this dataset is to create an algorithm that can 
 1- Adujst brightness range.   
 2- Rescale the Images pixel values to be between 0 and 1.   
 3- Rescale the images dimensions to be fed into model (256, 256).   
+4- Divid data into batches of 32 samples per batch and test and validation of 10 samples per batch.   
 4- group images into array to feed it into model (32, 256, 256, 3) were batch size = 32.   
 
 ### CNN Model
